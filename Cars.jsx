@@ -1,6 +1,8 @@
-Models = new Mongo.Collection('models');
+import React from 'react';
+import Tracker from 'meteor/studiointeract:tracker-component';
+import "/imports/models";
 
-Cars = class Cars extends Tracker.Component {
+class Cars extends Tracker.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -47,3 +49,5 @@ Cars.propTypes = {
   brand: React.PropTypes.string
 };
 Cars.defaultProps = { brand: 'Volvo' };
+
+export default Cars;
