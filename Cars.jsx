@@ -1,5 +1,5 @@
 import React from 'react';
-import Tracker from 'meteor/studiointeract:tracker-component';
+import Tracker from 'tracker-component';
 import "/imports/models";
 
 class Cars extends Tracker.Component {

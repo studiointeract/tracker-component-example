@@ -1,5 +1,9 @@
 # ChangeLog
 
+### v1.3.1
+
+* Updated to use NPM package system.
+
 ### v1.3.0
 27-March-2016
 
