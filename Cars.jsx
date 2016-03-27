@@ -38,7 +38,7 @@ class Cars extends Tracker.Component {
         <ul className={["cars",
           this.state.ready ? "ready" : ""].join(' ')}>
           {cars.map((car, i) =>
-            <li className="car" key={i}>{car.brand} {car.model}</li>
+            <li className="car" key={i}>{`${car.brand} ${car.model}`}</li>
           )}
         </ul>
       </div>

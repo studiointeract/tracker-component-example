@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/studiointeract/react-component-example",
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-mounter": "^1.1.0",
-    "tracker-component": "^1.3.2"
+    "react": "^15.x",
+    "react-dom": "^15.x",
+    "react-mount-layout": "^1.1.x",
+    "tracker-component": "^1.3.x"
   }
 }
