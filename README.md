@@ -12,7 +12,7 @@
     `git clone git@github.com:studiointeract/react-component-example.git`
 4. Open the directory
     `cd react-component-example`
-    - **Meteor 1.3 using NPM**: `git checkout master`
+    - **Meteor 1.3 using NPM and React 15.x**: `git checkout master`
     - **Meteor 1.3**: `git checkout 1.3`
     - **Meteor 1.2**: `git checkout 1.2`
 5. Start the application by running

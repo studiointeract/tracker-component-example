@@ -1,5 +1,9 @@
 # ChangeLog
 
+### v1.3.2
+
+* Updated to use React 15.x
+
 ### v1.3.1
 
 * Updated to use NPM package system.
