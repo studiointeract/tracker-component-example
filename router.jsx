@@ -1,10 +1,15 @@
+import React from 'react';
+import Cars from './Cars.jsx';
+import {FlowRouter} from 'meteor/kadira:flow-router-ssr';
+import {mount} from 'react-mounter';
+
 const MainLayout = ({content}) => (
   <main>{content}</main>
 );
 
 FlowRouter.route("/", {
   action() {
-    ReactLayout.render(MainLayout, {
+    mount(MainLayout, {
       content: <Cars />
     });
   }

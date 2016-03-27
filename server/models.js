@@ -1,3 +1,5 @@
+import "/imports/models";
+
 // Bootstrap database with some cars.
 Meteor.startup(function() {
   let models = {
