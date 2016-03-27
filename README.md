@@ -2,7 +2,7 @@
 
 > A truly isomorphic React and Meteor experience.
 
-# Getting started
+## Getting started
 
 1. Install git
     https://desktop.github.com/
